@@ -1,0 +1,36 @@
+*{
+    padding:0;
+    margin:0;
+}
+.head{
+    width:90%;
+    height:100%;
+    /*background-color: gray;*/
+    margin: 100px auto;
+}
+/*贷款信息*/
+.title{
+    color:red
+}
+ table td input {
+            border: none;
+            display: block;
+            height:23px
+        }
+/*贷款表格*/
+.content tr td{
+    border:1px solid gainsboro;
+    text-align: center;
+}
+/*贷款类型*/
+.select_repay{
+    color:red;
+    width:100%
+}
+.select_repay select{
+    width:150px
+}
+.balance tr td{
+    border:1px solid gainsboro;
+    text-align: left;
+}

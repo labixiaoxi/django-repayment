@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    {% load staticfiles %}
+    <link rel="stylesheet" href="{% static 'css/index.css' %}" type="text/css" media="all">
+{#    <link type="text/css" rel="stylesheet" href="index.css">#}
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>还款</title>
+    <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js
+    "></script>
+    <style>
+        .loading {
+            width: 150px;
+            height: 15px;
+            margin: 0 auto;
+            margin-top: 100px;
+            text-align: center;
+        }
+        .loading span {
+            display: inline-block;
+            width: 15px;
+            height: 100%;
+            margin-right: 5px;
+            background: lightgreen;
+            animation: load 1.04s ease infinite;
+        }
+
+        .loading span:last-child {
+            margin-right: 0;
+        }
+
+        @keyframes load {
+            0% {
+                opacity: 1;
+                transform: scale(1.2);
+            }
+            100% {
+                opacity: .2;
+                transform: scale(.2);
+            }
+        }
+
+        .loading span:nth-child(1) {
+            animation-delay: 0.13s;
+        }
+
+        .loading span:nth-child(2) {
+            animation-delay: 0.26s;
+        }
+
+        .loading span:nth-child(3) {
+            animation-delay: 0.39s;
+        }
+
+        .loading span:nth-child(4) {
+            animation-delay: 0.52s;
+        }
+
+        .loading span:nth-child(5) {
+            animation-delay: 0.65s;
+        }
+
+    </style>
+</head>
+<body>
+<form action="../result/" method="post">
+    <div class="loading">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <div class="head">
+        <div class="title">
+
+         <b>贷款信息:</b>
+    </div>
+        {% csrf_token %}
+    <table class="content" border="0" cellspacing="0" cellpadding="0">
+        <tr>
+            <td colspan="6">贷款信息</td>
+        </tr>
+        <tr>
+            <td>投资人</td>
+            <td>借款人</td>
+            <td>贷款id</td>
+            <td>还款期数</td>
+            <td>还款类型</td>
+            <td>产品总利率(%)</td>
+        </tr>
+        <tr>
+            <td><input type="text" name="user_id" placeholder="投资人账号"></td>
+            <td><input type="text" name="userId" placeholder="借款人"></td>
+            <td><input type="text" name="loan_id" placeholder="贷款id"></td>
+            <td><input type="text" name="period" placeholder="还款期数"></td>
+            <td><input type="text" name="repaymentType" placeholder="贷款类型"></td>
+            <td><input type="text" name="interestRate" placeholder="还款类型为1,则为空"></td>
+        </tr>
+    </table>
+    <div class="select_repay">
+        <b>还款类型:&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</b>
+        <select id="test" name="select_test">
+            <option value="0">选择贷款类型</option>
+            <option value="1">正常还款</option>
+            <option value="2">担保代偿</option>
+            <option value="3">逾期还款</option>
+            <option value="4">提前还款</option>
+        </select>
+        <select>
+            <option>贷款类型</option>
+            <option value="a">培训贷</option>
+            <option value="b">保单贷</option>
+            <option value="c">门店经营贷款</option>
+            <option value="d">保费分期</option>
+            <option value="e">惠房贷</option>
+            <option value="f">房抵贷</option>
+            <option value="g">车险分期</option>
+            <option value="h">油卡</option>
+            <option value="i">新车险先出单</option>
+            <option value="j">新车险后出单</option>
+            <option value="a">佣金垫资A1</option>
+            <option value="a">佣金垫资A2</option>
+
+
+        </select>
+
+    </div>
+        <table class="balance" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+                <td></td>
+                <td>APP金额</td>
+                <td>APP新网</td>
+                <td>南门金额</td>
+                <td>南门新网</td>
+                <td>担保账户</td>
+                <td>担保新网</td>
+                <td>收入账户</td>
+                <td>收入新网</td>
+                <td>营销账户</td>
+                <td>营销新网</td>
+            </tr>
+            <tr class="infos">
+                <td><span class="infos_title"></span>(前)</td>
+                <td>{{ jhj_balance_app_front }}</td>
+                <td>{{ jhj_balance_xw_front }}</td>
+                <td>{{ nm_balance_app_front }}</td>
+                <td>{{ nm_balance_xw_front }}</td>
+                <td>{{ guarantee_balance_app_front }}</td>
+                <td>{{ guarantee_balance_xw_front }}</td>
+                <td>{{ income_balance_app_front }}</td>
+                <td>{{ income_balance_xw_front }}</td>
+                <td>{{ Marketing_balance_app_front }}</td>
+                <td>{{ Marketing_balance_xw_front }}</td>
+
+            </tr>
+            <tr class="infos">
+                <td><span class="infos_title"></span>(后)</td>
+                <td>{{ jhj_balance_app_behind }}</td>
+                <td>{{ jhj_balance_xw_behind }}</td>
+                <td>{{ nm_balance_app_behind }}</td>
+                <td>{{ nm_balance_xw_behind }}</td>
+                <td>{{ guarantee_balance_app_behind }}</td>
+                <td>{{ guarantee_balance_xw_behind }}</td>
+                <td>{{ income_balance_app_behind }}</td>
+                <td>{{ income_balance_xw_behind }}</td>
+                <td>{{ Marketing_balance_app_behind }}</td>
+                <td>{{ Marketing_balance_xw_behind }}</td>
+            </tr>
+            <tr class="infos">
+                <td><span class="infos_title"></span>(差值)</td>
+                <td>{{ jhj_balance_app_difference }}</td>
+                <td>{{ jhj_balance_xw_difference }}</td>
+                <td>{{ nm_balance_app_difference }}</td>
+                <td>{{ nm_balance_xw_difference }}</td>
+                <td>{{ guarantee_balance_app_difference }}</td>
+                <td>{{ guarantee_balance_xw_difference }}</td>
+                <td>{{ income_balance_app_difference }}</td>
+                <td>{{ income_balance_xw_difference }}</td>
+                <td>{{ Marketing_balance_app_difference }}</td>
+                <td>{{ Marketing_balance_xw_difference }}</td>
+            </tr>
+            <tr class="infos">
+                <td><span class="infos_title"></span>(自己计算)</td>
+                <td>{{ jhj_balance_app_calculation }}</td>
+                <td>{{ jhj_balance_xw_calculation }}</td>
+                <td>{{ nm_balance_app_calculation }}</td>
+                <td>{{ nm_balance_xw_calculation }}</td>
+                <td>{{ guarantee_balance_app_calculation }}</td>
+                <td>{{ guarantee_balance_xw_calculation }}</td>
+                <td>{{ income_balance_app_calculation }}</td>
+                <td>{{ income_balance_xw_calculation }}</td>
+                <td>{{ Marketing_balance_app_calculation }}</td>
+                <td>{{ Marketing_balance_xw_calculation }}</td>
+            </tr>
+        </table>
+    <div class="end">
+        <input id="btn" type="submit" value="提交">
+    </div>
+    </div>
+</form>
+
+
+
+   <script>
+        var list = ["正常还款", "担保代偿", "逾期还款", "提前还款"];
+        $(".infos").hide();
+        $("#test").on("change", function() {
+            var val = $(this).val();
+            console.log(val);
+            if (val > 0) {
+                $(".infos").show().find(".infos_title").text(list[val - 1]);
+            } else {
+                $(".infos").hide()
+            }
+        });
+
+
+        $("#btn").on("click", function() {
+            var data = {
+                user_id: "",
+                userId: "",
+                loan_id: "",
+                period: "",
+                repaymentType: "",
+                select_list: ""
+            };
+            $("input[type=text]").each(function() {
+                var name = $(this).attr("name");
+                var val = $(this).val();
+                data[name] = val;
+            });
+            $("select").each(function() {
+                var name = $(this).attr("name");
+                var val = $(this).val();
+                data[name] = val;
+            })
+            localStorage.setItem("jhj_data", JSON.stringify(data));
+        });
+
+       var data = localStorage.getItem("jhj_data");
+        if (data) {
+            data = JSON.parse(data);
+            for (var key in data) {
+                if (key == "select_list") {
+                    $("select[name=select_list]").val(data[key]);
+                    if (data[key] > 0) {
+                        $(".infos").show().find(".infos_title").text(list[data[key] - 1]);
+                    }
+
+                } else {
+                    $("input[name=" + key + "]").val(data[key]);
+                }
+            }
+            localStorage.removeItem(jhj_data)
+        }
+
+    </script>
+</body>
+
+</html>
