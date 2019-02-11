@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<style>
+    form{
+        text-align: center;
+        margin-top: 200px;
+    }
+</style>
+<body>
+<form action="../addrun/" method="post">
+    {% csrf_token %}
+{#    进件次数:<input type="text" name="test">#}
+    分单金额:<input type="text" name="money">
+    <select>
+        <option value="0">智慧投</option>
+        <option value="1">直投</option>
+    </select>
+    <input type="submit" value="确定">
+
+</form>
+</body>
+</html>

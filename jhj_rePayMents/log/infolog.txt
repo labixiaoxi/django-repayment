@@ -1,0 +1,80 @@
+2018-12-13 16:20:27,142 [Thread-2:8820] [django.request:152] [base:get_response] [WARNING]- Not Found: /page
+2018-12-13 16:38:55,361 [Thread-1:3472] [django.request:152] [base:get_response] [WARNING]- Not Found: /fnfinfrf
+2018-12-13 16:39:07,240 [Thread-3:2272] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:40:29,200 [Thread-4:3920] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:40:29,701 [Thread-5:2856] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:40:29,908 [Thread-6:10268] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:40:30,099 [Thread-7:2808] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:40:30,260 [Thread-8:3884] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:40:30,410 [Thread-9:10232] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:40:30,592 [Thread-10:8168] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:40:30,773 [Thread-11:9888] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:40:31,068 [Thread-12:3136] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:40:31,323 [Thread-13:3628] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:40:31,553 [Thread-14:6736] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:40:31,746 [Thread-15:7640] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:40:31,966 [Thread-16:4404] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:40:32,124 [Thread-17:5348] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:41:10,888 [Thread-18:8168] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:41:11,601 [Thread-19:3136] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:41:11,924 [Thread-20:3628] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:41:12,147 [Thread-21:6736] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:41:12,354 [Thread-22:7640] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:41:47,969 [Thread-23:8112] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:41:55,533 [Thread-24:3584] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:41:56,154 [Thread-25:2716] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:41:56,331 [Thread-26:8572] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:41:56,494 [Thread-27:3560] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:41:56,653 [Thread-28:3816] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:41:56,786 [Thread-29:9964] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:41:56,957 [Thread-30:11188] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:41:57,111 [Thread-31:9912] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:41:57,247 [Thread-32:10856] [django.request:152] [base:get_response] [WARNING]- Not Found: /f
+2018-12-13 16:42:32,913 [Thread-33:7960] [django.request:152] [base:get_response] [WARNING]- Not Found: /ff
+2018-12-13 16:43:11,618 [Thread-34:9028] [django.request:152] [base:get_response] [WARNING]- Not Found: /ff
+2018-12-13 16:43:11,818 [Thread-35:11220] [django.request:152] [base:get_response] [WARNING]- Not Found: /ff
+2018-12-13 16:43:12,026 [Thread-36:10440] [django.request:152] [base:get_response] [WARNING]- Not Found: /ff
+2018-12-13 16:43:12,269 [Thread-37:10704] [django.request:152] [base:get_response] [WARNING]- Not Found: /ff
+2018-12-13 16:44:20,418 [Thread-1:9532] [django.request:152] [base:get_response] [WARNING]- Not Found: /ff
+2018-12-13 16:44:21,483 [Thread-3:6672] [django.request:152] [base:get_response] [WARNING]- Not Found: /ff
+2018-12-13 16:47:15,796 [Thread-1:6676] [django.request:152] [base:get_response] [WARNING]- Not Found: /ff
+2018-12-13 16:47:16,865 [Thread-3:9828] [django.request:152] [base:get_response] [WARNING]- Not Found: /ff
+2018-12-13 16:47:17,371 [Thread-4:2548] [django.request:152] [base:get_response] [WARNING]- Not Found: /ff
+2018-12-13 16:47:17,558 [Thread-5:6916] [django.request:152] [base:get_response] [WARNING]- Not Found: /ff
+2018-12-13 16:47:17,724 [Thread-6:9724] [django.request:152] [base:get_response] [WARNING]- Not Found: /ff
+2018-12-13 16:47:17,871 [Thread-7:8168] [django.request:152] [base:get_response] [WARNING]- Not Found: /ff
+2018-12-13 16:47:18,028 [Thread-8:3776] [django.request:152] [base:get_response] [WARNING]- Not Found: /ff
+2018-12-13 16:47:18,167 [Thread-9:6556] [django.request:152] [base:get_response] [WARNING]- Not Found: /ff
+2018-12-13 16:47:23,967 [Thread-10:5908] [django.request:152] [base:get_response] [WARNING]- Not Found: /repayments/repayments.htmld
+2018-12-13 16:47:58,928 [Thread-1:10636] [django.request:152] [base:get_response] [WARNING]- Not Found: /repayments/repayments.htmld
+2018-12-13 16:47:59,384 [Thread-3:9420] [django.request:152] [base:get_response] [WARNING]- Not Found: /repayments/repayments.htmld
+2018-12-13 16:47:59,615 [Thread-4:8036] [django.request:152] [base:get_response] [WARNING]- Not Found: /repayments/repayments.htmld
+2018-12-13 16:47:59,806 [Thread-5:11116] [django.request:152] [base:get_response] [WARNING]- Not Found: /repayments/repayments.htmld
+2018-12-13 16:47:59,980 [Thread-6:10512] [django.request:152] [base:get_response] [WARNING]- Not Found: /repayments/repayments.htmld
+2018-12-13 16:48:00,193 [Thread-7:10616] [django.request:152] [base:get_response] [WARNING]- Not Found: /repayments/repayments.htmld
+2018-12-13 16:48:00,367 [Thread-8:8600] [django.request:152] [base:get_response] [WARNING]- Not Found: /repayments/repayments.htmld
+2018-12-13 16:48:00,549 [Thread-9:8308] [django.request:152] [base:get_response] [WARNING]- Not Found: /repayments/repayments.htmld
+2018-12-13 16:48:00,707 [Thread-10:10964] [django.request:152] [base:get_response] [WARNING]- Not Found: /repayments/repayments.htmld
+2018-12-13 16:48:00,910 [Thread-11:4856] [django.request:152] [base:get_response] [WARNING]- Not Found: /repayments/repayments.htmld
+2018-12-13 16:51:15,845 [Thread-1:8284] [django.request:152] [base:get_response] [WARNING]- Not Found: /repayments/repayments.htmld
+2018-12-13 16:51:16,306 [Thread-3:6556] [django.request:152] [base:get_response] [WARNING]- Not Found: /repayments/repayments.htmld
+2018-12-13 16:51:16,552 [Thread-4:7992] [django.request:152] [base:get_response] [WARNING]- Not Found: /repayments/repayments.htmld
+2018-12-13 16:51:16,721 [Thread-5:10296] [django.request:152] [base:get_response] [WARNING]- Not Found: /repayments/repayments.htmld
+2018-12-13 16:51:16,914 [Thread-6:5192] [django.request:152] [base:get_response] [WARNING]- Not Found: /repayments/repayments.htmld
+2018-12-13 16:51:17,119 [Thread-7:8312] [django.request:152] [base:get_response] [WARNING]- Not Found: /repayments/repayments.htmld
+2018-12-13 16:51:17,318 [Thread-8:6800] [django.request:152] [base:get_response] [WARNING]- Not Found: /repayments/repayments.htmld
+2018-12-13 16:51:44,450 [Thread-9:10772] [django.request:152] [base:get_response] [WARNING]- Not Found: /repayments/repayments.htmld
+2018-12-13 16:52:15,101 [Thread-10:2576] [django.request:152] [base:get_response] [WARNING]- Not Found: /repayments/repayments.htmld
+2018-12-13 16:54:30,483 [Thread-2:9960] [django.request:152] [base:get_response] [WARNING]- Not Found: /repayments/repayments.htmld
+2018-12-13 16:54:34,549 [Thread-3:3572] [django.request:152] [base:get_response] [WARNING]- Not Found: /repayments
+2018-12-13 17:36:51,357 [Thread-3:9924] [django.request:132] [exception:handle_uncaught_exception] [ERROR]- Internal Server Error: /result/
+Traceback (most recent call last):
+  File "E:\python\python_2.7.12\lib\site-packages\django-1.10.8-py2.7.egg\django\core\handlers\exception.py", line 42, in inner
+    response = get_response(request)
+  File "E:\python\python_2.7.12\lib\site-packages\django-1.10.8-py2.7.egg\django\core\handlers\base.py", line 187, in _get_response
+    response = self.process_exception_by_middleware(e, request)
+  File "E:\python\python_2.7.12\lib\site-packages\django-1.10.8-py2.7.egg\django\core\handlers\base.py", line 185, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "E:\pycharm\django\blog\rePayMents\jhj_rePayMents\views.py", line 363, in repayments
+    sum_interest = sum_principal*interestRate/100/12
+TypeError: can't multiply sequence by non-int of type 'float'

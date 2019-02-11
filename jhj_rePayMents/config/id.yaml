@@ -1,0 +1,11 @@
+con:
+  userId: 552921171591565312          #投资人
+  user_Id: 511301393391423488         #借款人
+  loan_id: 507932820044251136         #贷款id
+  type: 1                             #还款类型
+  period: 1                           #还款期数
+  product_type: 1                     #产品类型,智慧投1,直投2
+  platformUserNo1: 487211949373784064 #投资人accountid
+  platformUserNo2: 491903601971560448 #借款人accountid
+  platformUserNo3: 426037901906673664 #担保账户accountid
+  platformUserNo4: SYS_GENERATE_004  #收入账户accountid

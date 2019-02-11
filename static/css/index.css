@@ -1,0 +1,54 @@
+*{
+    padding:0;
+    margin:0;
+    /*background-image: url("../img/timg.jpg");*/
+}
+.head{
+    width:70%;
+    height:100%;
+    /*background-color: gray;*/
+    margin: 100px auto;
+}
+/*贷款信息*/
+.title{
+    color:red;
+
+}
+.head table td input {
+            border: none;
+            display: block;
+            height:23px
+        }
+/*贷款表格*/
+.content{
+    width:100%;
+    margin-bottom: 100px;
+}
+.content tr td{
+    border:1px solid gainsboro;
+    text-align: center;
+}
+/*贷款类型*/
+.select_repay{
+    color:red;
+    width:100%;
+    margin-bottom: 10px;
+}
+.select_repay select{
+    width:150px
+}
+.balance{
+     width:100%
+}
+.balance tr td{
+    border:1px solid gainsboro;
+    text-align: center;
+}
+.end{
+    margin-top: 100px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    /*background-color: rgb(94, 185, 94);*/
+    /*border-color: rgb(94, 185, 94);*/
+
+}

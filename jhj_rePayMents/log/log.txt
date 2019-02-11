@@ -1,0 +1,422 @@
+2018-12-13 14:57:36,716 [Dummy-1:9424] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 14:57:36,729 [Dummy-1:9424] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 14:57:36,875 [Thread-2:9508] [django.server:131] [basehttp:log_message] [INFO]- "GET /ceshi/ HTTP/1.1" 200 9
+2018-12-13 15:00:16,749 [Dummy-1:9380] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 15:00:16,760 [Dummy-1:9380] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 15:00:16,923 [Thread-2:9644] [django:427] [views:demo] [INFO]- 测试111
+2018-12-13 15:00:16,961 [Thread-2:9644] [django.server:131] [basehttp:log_message] [INFO]- "GET /ceshi/ HTTP/1.1" 200 9
+2018-12-13 15:00:21,016 [Thread-3:3144] [django:427] [views:demo] [INFO]- 测试111
+2018-12-13 15:00:21,019 [Thread-3:3144] [django.server:131] [basehttp:log_message] [INFO]- "GET /ceshi/ HTTP/1.1" 200 9
+2018-12-13 15:01:06,562 [Dummy-1:9604] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 15:01:06,569 [Dummy-1:9604] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 15:09:39,460 [Thread-2:9824] [django.server:131] [basehttp:log_message] [INFO]- "GET /repayments/repayments.html HTTP/1.1" 301 0
+2018-12-13 15:09:39,562 [Thread-3:6972] [django.server:131] [basehttp:log_message] [INFO]- "GET /repayments/repayments.html/ HTTP/1.1" 200 7034
+2018-12-13 15:09:40,255 [Thread-4:9520] [django.server:131] [basehttp:log_message] [INFO]- "GET /static/css/index.css HTTP/1.1" 200 937
+2018-12-13 15:09:41,404 [Thread-5:8168] [django.server:131] [basehttp:log_message] [INFO]- "GET /repayments.html HTTP/1.1" 301 0
+2018-12-13 15:09:41,453 [Thread-6:9800] [django.server:131] [basehttp:log_message] [INFO]- "GET /repayments.html/ HTTP/1.1" 200 7034
+2018-12-13 15:42:07,443 [Dummy-1:10860] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 15:42:07,448 [Dummy-1:10860] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 15:42:30,924 [Dummy-1:5236] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 15:42:30,931 [Dummy-1:5236] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 15:51:47,418 [Dummy-1:10632] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 15:51:47,428 [Dummy-1:10632] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 15:56:26,585 [Dummy-1:10884] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 15:56:26,596 [Dummy-1:10884] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 15:57:25,490 [Dummy-1:9644] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 15:57:25,496 [Dummy-1:9644] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 15:58:14,638 [Dummy-1:9392] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 15:58:14,645 [Dummy-1:9392] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 16:17:45,168 [Dummy-1:11096] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 16:17:45,176 [Dummy-1:11096] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 16:18:45,911 [Dummy-1:9748] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 16:18:45,924 [Dummy-1:9748] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 16:20:05,216 [Dummy-1:10468] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 16:20:05,223 [Dummy-1:10468] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 16:20:27,052 [Thread-2:8820] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "E:\python\python_2.7.12\lib\site-packages\django-1.10.8-py2.7.egg\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2018-12-13 16:20:27,145 [Thread-2:8820] [django.server:131] [basehttp:log_message] [WARNING]- "GET /page HTTP/1.1" 404 2407
+2018-12-13 16:20:30,512 [Thread-3:10888] [django.server:131] [basehttp:log_message] [INFO]- "GET /page/2 HTTP/1.1" 200 7
+2018-12-13 16:20:34,089 [Thread-4:8876] [django.server:131] [basehttp:log_message] [INFO]- "GET /page/6 HTTP/1.1" 200 7
+2018-12-13 16:24:02,413 [Dummy-1:11208] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 16:24:02,421 [Dummy-1:11208] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 16:24:32,226 [Dummy-1:3920] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 16:24:32,233 [Dummy-1:3920] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 16:25:26,062 [Dummy-1:9472] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 16:25:26,072 [Dummy-1:9472] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 16:25:36,674 [Thread-2:2692] [django.server:131] [basehttp:log_message] [INFO]- "GET /page/2018/01/12 HTTP/1.1" 200 10
+2018-12-13 16:38:55,362 [Thread-1:3472] [django.server:131] [basehttp:log_message] [WARNING]- "GET /fnfinfrf HTTP/1.1" 404 82
+2018-12-13 16:39:07,242 [Thread-3:2272] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:40:29,203 [Thread-4:3920] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:40:29,706 [Thread-5:2856] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:40:29,913 [Thread-6:10268] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:40:30,104 [Thread-7:2808] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:40:30,263 [Thread-8:3884] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:40:30,411 [Thread-9:10232] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:40:30,595 [Thread-10:8168] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:40:30,776 [Thread-11:9888] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:40:31,071 [Thread-12:3136] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:40:31,325 [Thread-13:3628] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:40:31,555 [Thread-14:6736] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:40:31,747 [Thread-15:7640] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:40:31,967 [Thread-16:4404] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:40:32,128 [Thread-17:5348] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:41:10,891 [Thread-18:8168] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:41:11,601 [Thread-19:3136] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:41:11,927 [Thread-20:3628] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:41:12,150 [Thread-21:6736] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:41:12,355 [Thread-22:7640] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:41:47,970 [Thread-23:8112] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:41:55,536 [Thread-24:3584] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:41:56,157 [Thread-25:2716] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:41:56,334 [Thread-26:8572] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:41:56,496 [Thread-27:3560] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:41:56,654 [Thread-28:3816] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:41:56,786 [Thread-29:9964] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:41:56,960 [Thread-30:11188] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:41:57,114 [Thread-31:9912] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:41:57,249 [Thread-32:10856] [django.server:131] [basehttp:log_message] [WARNING]- "GET /f HTTP/1.1" 404 75
+2018-12-13 16:42:32,914 [Thread-33:7960] [django.server:131] [basehttp:log_message] [WARNING]- "GET /ff HTTP/1.1" 404 76
+2018-12-13 16:43:11,621 [Thread-34:9028] [django.server:131] [basehttp:log_message] [WARNING]- "GET /ff HTTP/1.1" 404 76
+2018-12-13 16:43:11,819 [Thread-35:11220] [django.server:131] [basehttp:log_message] [WARNING]- "GET /ff HTTP/1.1" 404 76
+2018-12-13 16:43:12,028 [Thread-36:10440] [django.server:131] [basehttp:log_message] [WARNING]- "GET /ff HTTP/1.1" 404 76
+2018-12-13 16:43:12,273 [Thread-37:10704] [django.server:131] [basehttp:log_message] [WARNING]- "GET /ff HTTP/1.1" 404 76
+2018-12-13 16:44:20,421 [Thread-1:9532] [django.server:131] [basehttp:log_message] [WARNING]- "GET /ff HTTP/1.1" 404 76
+2018-12-13 16:44:21,486 [Thread-3:6672] [django.server:131] [basehttp:log_message] [WARNING]- "GET /ff HTTP/1.1" 404 76
+2018-12-13 16:47:15,796 [Thread-1:6676] [django.server:131] [basehttp:log_message] [WARNING]- "GET /ff HTTP/1.1" 404 76
+2018-12-13 16:47:16,867 [Thread-3:9828] [django.server:131] [basehttp:log_message] [WARNING]- "GET /ff HTTP/1.1" 404 76
+2018-12-13 16:47:17,374 [Thread-4:2548] [django.server:131] [basehttp:log_message] [WARNING]- "GET /ff HTTP/1.1" 404 76
+2018-12-13 16:47:17,559 [Thread-5:6916] [django.server:131] [basehttp:log_message] [WARNING]- "GET /ff HTTP/1.1" 404 76
+2018-12-13 16:47:17,726 [Thread-6:9724] [django.server:131] [basehttp:log_message] [WARNING]- "GET /ff HTTP/1.1" 404 76
+2018-12-13 16:47:17,872 [Thread-7:8168] [django.server:131] [basehttp:log_message] [WARNING]- "GET /ff HTTP/1.1" 404 76
+2018-12-13 16:47:18,029 [Thread-8:3776] [django.server:131] [basehttp:log_message] [WARNING]- "GET /ff HTTP/1.1" 404 76
+2018-12-13 16:47:18,168 [Thread-9:6556] [django.server:131] [basehttp:log_message] [WARNING]- "GET /ff HTTP/1.1" 404 76
+2018-12-13 16:47:23,969 [Thread-10:5908] [django.server:131] [basehttp:log_message] [WARNING]- "GET /repayments/repayments.htmld HTTP/1.1" 404 101
+2018-12-13 16:47:58,930 [Thread-1:10636] [django.server:131] [basehttp:log_message] [WARNING]- "GET /repayments/repayments.htmld HTTP/1.1" 404 101
+2018-12-13 16:47:59,385 [Thread-3:9420] [django.server:131] [basehttp:log_message] [WARNING]- "GET /repayments/repayments.htmld HTTP/1.1" 404 101
+2018-12-13 16:47:59,617 [Thread-4:8036] [django.server:131] [basehttp:log_message] [WARNING]- "GET /repayments/repayments.htmld HTTP/1.1" 404 101
+2018-12-13 16:47:59,808 [Thread-5:11116] [django.server:131] [basehttp:log_message] [WARNING]- "GET /repayments/repayments.htmld HTTP/1.1" 404 101
+2018-12-13 16:47:59,982 [Thread-6:10512] [django.server:131] [basehttp:log_message] [WARNING]- "GET /repayments/repayments.htmld HTTP/1.1" 404 101
+2018-12-13 16:48:00,194 [Thread-7:10616] [django.server:131] [basehttp:log_message] [WARNING]- "GET /repayments/repayments.htmld HTTP/1.1" 404 101
+2018-12-13 16:48:00,367 [Thread-8:8600] [django.server:131] [basehttp:log_message] [WARNING]- "GET /repayments/repayments.htmld HTTP/1.1" 404 101
+2018-12-13 16:48:00,552 [Thread-9:8308] [django.server:131] [basehttp:log_message] [WARNING]- "GET /repayments/repayments.htmld HTTP/1.1" 404 101
+2018-12-13 16:48:00,709 [Thread-10:10964] [django.server:131] [basehttp:log_message] [WARNING]- "GET /repayments/repayments.htmld HTTP/1.1" 404 101
+2018-12-13 16:48:00,911 [Thread-11:4856] [django.server:131] [basehttp:log_message] [WARNING]- "GET /repayments/repayments.htmld HTTP/1.1" 404 101
+2018-12-13 16:51:15,848 [Thread-1:8284] [django.server:131] [basehttp:log_message] [WARNING]- "GET /repayments/repayments.htmld HTTP/1.1" 404 101
+2018-12-13 16:51:16,312 [Thread-3:6556] [django.server:131] [basehttp:log_message] [WARNING]- "GET /repayments/repayments.htmld HTTP/1.1" 404 101
+2018-12-13 16:51:16,555 [Thread-4:7992] [django.server:131] [basehttp:log_message] [WARNING]- "GET /repayments/repayments.htmld HTTP/1.1" 404 101
+2018-12-13 16:51:16,723 [Thread-5:10296] [django.server:131] [basehttp:log_message] [WARNING]- "GET /repayments/repayments.htmld HTTP/1.1" 404 101
+2018-12-13 16:51:16,914 [Thread-6:5192] [django.server:131] [basehttp:log_message] [WARNING]- "GET /repayments/repayments.htmld HTTP/1.1" 404 101
+2018-12-13 16:51:17,121 [Thread-7:8312] [django.server:131] [basehttp:log_message] [WARNING]- "GET /repayments/repayments.htmld HTTP/1.1" 404 101
+2018-12-13 16:51:17,319 [Thread-8:6800] [django.server:131] [basehttp:log_message] [WARNING]- "GET /repayments/repayments.htmld HTTP/1.1" 404 101
+2018-12-13 16:51:44,453 [Thread-9:10772] [django.server:131] [basehttp:log_message] [WARNING]- "GET /repayments/repayments.htmld HTTP/1.1" 404 101
+2018-12-13 16:52:15,104 [Thread-10:2576] [django.server:131] [basehttp:log_message] [WARNING]- "GET /repayments/repayments.htmld HTTP/1.1" 404 101
+2018-12-13 16:54:29,894 [Dummy-1:7584] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 16:54:29,907 [Dummy-1:7584] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 16:54:30,184 [Dummy-1:10368] [django.db.backends:90] [utils:execute] [DEBUG]- (0.003) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 16:54:30,196 [Dummy-1:10368] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 16:54:30,257 [Dummy-1:10636] [django.db.backends:90] [utils:execute] [DEBUG]- (0.003) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 16:54:30,263 [Dummy-1:10636] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 16:54:30,477 [Thread-2:9960] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "E:\python\python_2.7.12\lib\site-packages\django-1.10.8-py2.7.egg\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2018-12-13 16:54:30,486 [Thread-2:9960] [django.server:131] [basehttp:log_message] [WARNING]- "GET /repayments/repayments.htmld HTTP/1.1" 404 2319
+2018-12-13 16:54:30,654 [Dummy-1:9064] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 16:54:30,658 [Dummy-1:9064] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 16:54:34,546 [Thread-3:3572] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'name' in template 'unknown'.
+Traceback (most recent call last):
+  File "E:\python\python_2.7.12\lib\site-packages\django-1.10.8-py2.7.egg\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [name] in u'<RegexURLResolver <RegexURLPattern list> (admin:admin) ^admin/>'
+2018-12-13 16:54:34,549 [Thread-3:3572] [django.server:131] [basehttp:log_message] [WARNING]- "GET /repayments HTTP/1.1" 404 2268
+2018-12-13 16:54:38,516 [Thread-4:8832] [django.server:131] [basehttp:log_message] [INFO]- "GET /repayments.html/ HTTP/1.1" 200 7034
+2018-12-13 16:55:24,678 [Thread-5:7000] [django.server:131] [basehttp:log_message] [INFO]- "GET /repayments.html/ HTTP/1.1" 200 7034
+2018-12-13 17:22:06,055 [Dummy-1:8880] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:22:06,062 [Dummy-1:8880] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:22:06,138 [Dummy-1:11260] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:22:06,148 [Dummy-1:11260] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:22:06,280 [Dummy-1:9348] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:22:06,286 [Dummy-1:9348] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:22:06,427 [Dummy-1:8512] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:22:06,430 [Dummy-1:8512] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:25:48,005 [Thread-2:8184] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'Marketing_balance_xw_front' in template 'index.html'.
+Traceback (most recent call last):
+  File "E:\python\python_2.7.12\lib\site-packages\django-1.10.8-py2.7.egg\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [Marketing_balance_xw_front] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'nwugqjxKJQkcMtD5QzmTTTMEWDabpoNgHft9clYkX7aMTpFxRqD8pJrxWHx1ZgQo'>, 'user': <SimpleLazyObject: <function <lambda> at 0x03CBF270>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x03CEE270>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x03C54550>, u'request': <WSGIRequest: GET '/repayments.html/'>}, {}, {'nm_balance_xw_front': '', 'nm_balance_app_calculation': '', 'jhj_balance_xw_calculation': '', 'guarantee_balance_xw_calculation': '', 'income_balance_app_difference': '', 'jhj_balance_app_calculation': '', 'guarantee_balance_app_behind': '', 'nm_balance_app_behind': '', 'guarantee_balance_xw_difference': '', 'guarantee_balance_app_difference': '', 'nm_balance_xw_calculation': '', 'jhj_balance_xw_difference': '', 'nm_balance_app_difference': '', 'income_balance_app_behind': '', 'jhj_balance_xw_behind': '', 'income_balance_app_calculation': '', 'income_balance_xw_difference': '', 'jhj_balance_xw_front': '', 'income_balance_xw_calculation': '', 'jhj_balance_app_front': '', 'jhj_balance_app_difference': '', 'jhj_balance_app_behind': '', 'nm_balance_app_front': '', 'guarantee_balance_app_calculation': '', 'income_balance_xw_front': '', 'guarantee_balance_app_front': '', 'nm_balance_xw_difference': '', 'guarantee_balance_xw_behind': '', 'request': <WSGIRequest: GET '/repayments.html/'>, 'guarantee_balance_xw_front': '', 'nm_balance_xw_behind': '', 'income_balance_app_front': '', 'income_balance_xw_behind': ''}]"
+2018-12-13 17:25:48,006 [Thread-2:8184] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'Marketing_balance_xw_front' in template 'index.html'.
+Traceback (most recent call last):
+  File "E:\python\python_2.7.12\lib\site-packages\django-1.10.8-py2.7.egg\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [Marketing_balance_xw_front] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'nwugqjxKJQkcMtD5QzmTTTMEWDabpoNgHft9clYkX7aMTpFxRqD8pJrxWHx1ZgQo'>, 'user': <SimpleLazyObject: <function <lambda> at 0x03CBF270>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x03CEE270>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x03C54550>, u'request': <WSGIRequest: GET '/repayments.html/'>}, {}, {'nm_balance_xw_front': '', 'nm_balance_app_calculation': '', 'jhj_balance_xw_calculation': '', 'guarantee_balance_xw_calculation': '', 'income_balance_app_difference': '', 'jhj_balance_app_calculation': '', 'guarantee_balance_app_behind': '', 'nm_balance_app_behind': '', 'guarantee_balance_xw_difference': '', 'guarantee_balance_app_difference': '', 'nm_balance_xw_calculation': '', 'jhj_balance_xw_difference': '', 'nm_balance_app_difference': '', 'income_balance_app_behind': '', 'jhj_balance_xw_behind': '', 'income_balance_app_calculation': '', 'income_balance_xw_difference': '', 'jhj_balance_xw_front': '', 'income_balance_xw_calculation': '', 'jhj_balance_app_front': '', 'jhj_balance_app_difference': '', 'jhj_balance_app_behind': '', 'nm_balance_app_front': '', 'guarantee_balance_app_calculation': '', 'income_balance_xw_front': '', 'guarantee_balance_app_front': '', 'nm_balance_xw_difference': '', 'guarantee_balance_xw_behind': '', 'request': <WSGIRequest: GET '/repayments.html/'>, 'guarantee_balance_xw_front': '', 'nm_balance_xw_behind': '', 'income_balance_app_front': '', 'income_balance_xw_behind': ''}]"
+2018-12-13 17:25:48,009 [Thread-2:8184] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'Marketing_balance_xw_front' in template 'index.html'.
+Traceback (most recent call last):
+  File "E:\python\python_2.7.12\lib\site-packages\django-1.10.8-py2.7.egg\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [Marketing_balance_xw_front] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'nwugqjxKJQkcMtD5QzmTTTMEWDabpoNgHft9clYkX7aMTpFxRqD8pJrxWHx1ZgQo'>, 'user': <SimpleLazyObject: <function <lambda> at 0x03CBF270>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x03CEE270>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x03C54550>, u'request': <WSGIRequest: GET '/repayments.html/'>}, {}, {'nm_balance_xw_front': '', 'nm_balance_app_calculation': '', 'jhj_balance_xw_calculation': '', 'guarantee_balance_xw_calculation': '', 'income_balance_app_difference': '', 'jhj_balance_app_calculation': '', 'guarantee_balance_app_behind': '', 'nm_balance_app_behind': '', 'guarantee_balance_xw_difference': '', 'guarantee_balance_app_difference': '', 'nm_balance_xw_calculation': '', 'jhj_balance_xw_difference': '', 'nm_balance_app_difference': '', 'income_balance_app_behind': '', 'jhj_balance_xw_behind': '', 'income_balance_app_calculation': '', 'income_balance_xw_difference': '', 'jhj_balance_xw_front': '', 'income_balance_xw_calculation': '', 'jhj_balance_app_front': '', 'jhj_balance_app_difference': '', 'jhj_balance_app_behind': '', 'nm_balance_app_front': '', 'guarantee_balance_app_calculation': '', 'income_balance_xw_front': '', 'guarantee_balance_app_front': '', 'nm_balance_xw_difference': '', 'guarantee_balance_xw_behind': '', 'request': <WSGIRequest: GET '/repayments.html/'>, 'guarantee_balance_xw_front': '', 'nm_balance_xw_behind': '', 'income_balance_app_front': '', 'income_balance_xw_behind': ''}]"
+2018-12-13 17:25:48,009 [Thread-2:8184] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'Marketing_balance_xw_front' in template 'index.html'.
+Traceback (most recent call last):
+  File "E:\python\python_2.7.12\lib\site-packages\django-1.10.8-py2.7.egg\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [Marketing_balance_xw_front] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'nwugqjxKJQkcMtD5QzmTTTMEWDabpoNgHft9clYkX7aMTpFxRqD8pJrxWHx1ZgQo'>, 'user': <SimpleLazyObject: <function <lambda> at 0x03CBF270>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x03CEE270>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x03C54550>, u'request': <WSGIRequest: GET '/repayments.html/'>}, {}, {'nm_balance_xw_front': '', 'nm_balance_app_calculation': '', 'jhj_balance_xw_calculation': '', 'guarantee_balance_xw_calculation': '', 'income_balance_app_difference': '', 'jhj_balance_app_calculation': '', 'guarantee_balance_app_behind': '', 'nm_balance_app_behind': '', 'guarantee_balance_xw_difference': '', 'guarantee_balance_app_difference': '', 'nm_balance_xw_calculation': '', 'jhj_balance_xw_difference': '', 'nm_balance_app_difference': '', 'income_balance_app_behind': '', 'jhj_balance_xw_behind': '', 'income_balance_app_calculation': '', 'income_balance_xw_difference': '', 'jhj_balance_xw_front': '', 'income_balance_xw_calculation': '', 'jhj_balance_app_front': '', 'jhj_balance_app_difference': '', 'jhj_balance_app_behind': '', 'nm_balance_app_front': '', 'guarantee_balance_app_calculation': '', 'income_balance_xw_front': '', 'guarantee_balance_app_front': '', 'nm_balance_xw_difference': '', 'guarantee_balance_xw_behind': '', 'request': <WSGIRequest: GET '/repayments.html/'>, 'guarantee_balance_xw_front': '', 'nm_balance_xw_behind': '', 'income_balance_app_front': '', 'income_balance_xw_behind': ''}]"
+2018-12-13 17:25:48,009 [Thread-2:8184] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'Marketing_balance_xw_front' in template 'index.html'.
+Traceback (most recent call last):
+  File "E:\python\python_2.7.12\lib\site-packages\django-1.10.8-py2.7.egg\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [Marketing_balance_xw_front] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'nwugqjxKJQkcMtD5QzmTTTMEWDabpoNgHft9clYkX7aMTpFxRqD8pJrxWHx1ZgQo'>, 'user': <SimpleLazyObject: <function <lambda> at 0x03CBF270>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x03CEE270>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x03C54550>, u'request': <WSGIRequest: GET '/repayments.html/'>}, {}, {'nm_balance_xw_front': '', 'nm_balance_app_calculation': '', 'jhj_balance_xw_calculation': '', 'guarantee_balance_xw_calculation': '', 'income_balance_app_difference': '', 'jhj_balance_app_calculation': '', 'guarantee_balance_app_behind': '', 'nm_balance_app_behind': '', 'guarantee_balance_xw_difference': '', 'guarantee_balance_app_difference': '', 'nm_balance_xw_calculation': '', 'jhj_balance_xw_difference': '', 'nm_balance_app_difference': '', 'income_balance_app_behind': '', 'jhj_balance_xw_behind': '', 'income_balance_app_calculation': '', 'income_balance_xw_difference': '', 'jhj_balance_xw_front': '', 'income_balance_xw_calculation': '', 'jhj_balance_app_front': '', 'jhj_balance_app_difference': '', 'jhj_balance_app_behind': '', 'nm_balance_app_front': '', 'guarantee_balance_app_calculation': '', 'income_balance_xw_front': '', 'guarantee_balance_app_front': '', 'nm_balance_xw_difference': '', 'guarantee_balance_xw_behind': '', 'request': <WSGIRequest: GET '/repayments.html/'>, 'guarantee_balance_xw_front': '', 'nm_balance_xw_behind': '', 'income_balance_app_front': '', 'income_balance_xw_behind': ''}]"
+2018-12-13 17:25:48,010 [Thread-2:8184] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'Marketing_balance_xw_front' in template 'index.html'.
+Traceback (most recent call last):
+  File "E:\python\python_2.7.12\lib\site-packages\django-1.10.8-py2.7.egg\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [Marketing_balance_xw_front] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'nwugqjxKJQkcMtD5QzmTTTMEWDabpoNgHft9clYkX7aMTpFxRqD8pJrxWHx1ZgQo'>, 'user': <SimpleLazyObject: <function <lambda> at 0x03CBF270>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x03CEE270>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x03C54550>, u'request': <WSGIRequest: GET '/repayments.html/'>}, {}, {'nm_balance_xw_front': '', 'nm_balance_app_calculation': '', 'jhj_balance_xw_calculation': '', 'guarantee_balance_xw_calculation': '', 'income_balance_app_difference': '', 'jhj_balance_app_calculation': '', 'guarantee_balance_app_behind': '', 'nm_balance_app_behind': '', 'guarantee_balance_xw_difference': '', 'guarantee_balance_app_difference': '', 'nm_balance_xw_calculation': '', 'jhj_balance_xw_difference': '', 'nm_balance_app_difference': '', 'income_balance_app_behind': '', 'jhj_balance_xw_behind': '', 'income_balance_app_calculation': '', 'income_balance_xw_difference': '', 'jhj_balance_xw_front': '', 'income_balance_xw_calculation': '', 'jhj_balance_app_front': '', 'jhj_balance_app_difference': '', 'jhj_balance_app_behind': '', 'nm_balance_app_front': '', 'guarantee_balance_app_calculation': '', 'income_balance_xw_front': '', 'guarantee_balance_app_front': '', 'nm_balance_xw_difference': '', 'guarantee_balance_xw_behind': '', 'request': <WSGIRequest: GET '/repayments.html/'>, 'guarantee_balance_xw_front': '', 'nm_balance_xw_behind': '', 'income_balance_app_front': '', 'income_balance_xw_behind': ''}]"
+2018-12-13 17:25:48,012 [Thread-2:8184] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'Marketing_balance_xw_front' in template 'index.html'.
+Traceback (most recent call last):
+  File "E:\python\python_2.7.12\lib\site-packages\django-1.10.8-py2.7.egg\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [Marketing_balance_xw_front] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'nwugqjxKJQkcMtD5QzmTTTMEWDabpoNgHft9clYkX7aMTpFxRqD8pJrxWHx1ZgQo'>, 'user': <SimpleLazyObject: <function <lambda> at 0x03CBF270>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x03CEE270>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x03C54550>, u'request': <WSGIRequest: GET '/repayments.html/'>}, {}, {'nm_balance_xw_front': '', 'nm_balance_app_calculation': '', 'jhj_balance_xw_calculation': '', 'guarantee_balance_xw_calculation': '', 'income_balance_app_difference': '', 'jhj_balance_app_calculation': '', 'guarantee_balance_app_behind': '', 'nm_balance_app_behind': '', 'guarantee_balance_xw_difference': '', 'guarantee_balance_app_difference': '', 'nm_balance_xw_calculation': '', 'jhj_balance_xw_difference': '', 'nm_balance_app_difference': '', 'income_balance_app_behind': '', 'jhj_balance_xw_behind': '', 'income_balance_app_calculation': '', 'income_balance_xw_difference': '', 'jhj_balance_xw_front': '', 'income_balance_xw_calculation': '', 'jhj_balance_app_front': '', 'jhj_balance_app_difference': '', 'jhj_balance_app_behind': '', 'nm_balance_app_front': '', 'guarantee_balance_app_calculation': '', 'income_balance_xw_front': '', 'guarantee_balance_app_front': '', 'nm_balance_xw_difference': '', 'guarantee_balance_xw_behind': '', 'request': <WSGIRequest: GET '/repayments.html/'>, 'guarantee_balance_xw_front': '', 'nm_balance_xw_behind': '', 'income_balance_app_front': '', 'income_balance_xw_behind': ''}]"
+2018-12-13 17:25:48,012 [Thread-2:8184] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'Marketing_balance_xw_front' in template 'index.html'.
+Traceback (most recent call last):
+  File "E:\python\python_2.7.12\lib\site-packages\django-1.10.8-py2.7.egg\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [Marketing_balance_xw_front] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'nwugqjxKJQkcMtD5QzmTTTMEWDabpoNgHft9clYkX7aMTpFxRqD8pJrxWHx1ZgQo'>, 'user': <SimpleLazyObject: <function <lambda> at 0x03CBF270>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x03CEE270>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x03C54550>, u'request': <WSGIRequest: GET '/repayments.html/'>}, {}, {'nm_balance_xw_front': '', 'nm_balance_app_calculation': '', 'jhj_balance_xw_calculation': '', 'guarantee_balance_xw_calculation': '', 'income_balance_app_difference': '', 'jhj_balance_app_calculation': '', 'guarantee_balance_app_behind': '', 'nm_balance_app_behind': '', 'guarantee_balance_xw_difference': '', 'guarantee_balance_app_difference': '', 'nm_balance_xw_calculation': '', 'jhj_balance_xw_difference': '', 'nm_balance_app_difference': '', 'income_balance_app_behind': '', 'jhj_balance_xw_behind': '', 'income_balance_app_calculation': '', 'income_balance_xw_difference': '', 'jhj_balance_xw_front': '', 'income_balance_xw_calculation': '', 'jhj_balance_app_front': '', 'jhj_balance_app_difference': '', 'jhj_balance_app_behind': '', 'nm_balance_app_front': '', 'guarantee_balance_app_calculation': '', 'income_balance_xw_front': '', 'guarantee_balance_app_front': '', 'nm_balance_xw_difference': '', 'guarantee_balance_xw_behind': '', 'request': <WSGIRequest: GET '/repayments.html/'>, 'guarantee_balance_xw_front': '', 'nm_balance_xw_behind': '', 'income_balance_app_front': '', 'income_balance_xw_behind': ''}]"
+2018-12-13 17:25:48,015 [Thread-2:8184] [django.server:131] [basehttp:log_message] [INFO]- "GET /repayments.html/ HTTP/1.1" 200 7319
+2018-12-13 17:26:35,243 [Dummy-1:9912] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:26:35,244 [Dummy-1:9912] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:26:35,864 [Dummy-1:10852] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:26:35,888 [Dummy-1:10852] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:26:35,921 [Dummy-1:7432] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:26:35,943 [Dummy-1:7432] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:26:36,032 [Dummy-1:8488] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:26:36,043 [Dummy-1:8488] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:27:48,788 [Dummy-1:3828] [django.db.backends:90] [utils:execute] [DEBUG]- (0.004) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:27:48,799 [Dummy-1:3828] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:27:48,924 [Dummy-1:3572] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:27:48,928 [Dummy-1:3572] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:27:48,940 [Dummy-1:6244] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:27:48,944 [Dummy-1:6244] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:27:48,982 [Dummy-1:8216] [django.db.backends:90] [utils:execute] [DEBUG]- (0.003) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:27:49,002 [Dummy-1:8216] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:28:37,351 [Dummy-1:3456] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:28:37,364 [Dummy-1:3456] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:28:37,459 [Dummy-1:9500] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:28:37,469 [Dummy-1:9500] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:28:37,533 [Dummy-1:7352] [django.db.backends:90] [utils:execute] [DEBUG]- (0.010) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:28:37,559 [Dummy-1:7352] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:28:37,721 [Dummy-1:10848] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:28:37,726 [Dummy-1:10848] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:29:28,244 [Dummy-1:11164] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:29:28,296 [Dummy-1:11164] [django.db.backends:90] [utils:execute] [DEBUG]- (0.005) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:29:28,447 [Dummy-1:9964] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:29:28,456 [Dummy-1:9964] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:29:28,723 [Dummy-1:6208] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:29:28,730 [Dummy-1:6208] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:29:28,898 [Dummy-1:10308] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:29:28,904 [Dummy-1:10308] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:29:50,003 [Dummy-1:7432] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:29:50,006 [Dummy-1:7432] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:29:50,164 [Dummy-1:10964] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:29:50,173 [Dummy-1:10964] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:29:51,029 [Dummy-1:8512] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:29:51,035 [Dummy-1:8512] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:29:51,038 [Dummy-1:3276] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:29:51,042 [Dummy-1:3276] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:30:36,071 [Dummy-1:7672] [django.db.backends:90] [utils:execute] [DEBUG]- (0.002) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:30:36,078 [Dummy-1:7672] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:30:36,137 [Dummy-1:3344] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:30:36,144 [Dummy-1:3344] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:30:36,160 [Dummy-1:11216] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:30:36,201 [Dummy-1:11216] [django.db.backends:90] [utils:execute] [DEBUG]- (0.010) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:30:36,451 [Dummy-1:4776] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) 
+            SELECT name, type FROM sqlite_master
+            WHERE type in ('table', 'view') AND NOT name='sqlite_sequence'
+            ORDER BY name; args=None
+2018-12-13 17:30:36,459 [Dummy-1:4776] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) SELECT "django_migrations"."app", "django_migrations"."name" FROM "django_migrations"; args=()
+2018-12-13 17:33:07,417 [Thread-2:9476] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'Marketing_balance_app_front' in template 'index.html'.
+Traceback (most recent call last):
+  File "E:\python\python_2.7.12\lib\site-packages\django-1.10.8-py2.7.egg\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [Marketing_balance_app_front] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'fasvA0ICrrPF5h50bKOnRIgTLjBl9sWjzTrom29cFIFfcd7scB5CnyVMLnYbJkZr'>, 'user': <SimpleLazyObject: <function <lambda> at 0x03CB22F0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x03D42430>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x03CB16F0>, u'request': <WSGIRequest: GET '/repayments.html/'>}, {}, {'nm_balance_xw_front': '', 'nm_balance_app_calculation': '', 'jhj_balance_xw_calculation': '', 'guarantee_balance_xw_calculation': '', 'income_balance_app_difference': '', 'jhj_balance_app_calculation': '', 'guarantee_balance_app_behind': '', 'nm_balance_app_behind': '', 'guarantee_balance_xw_difference': '', 'guarantee_balance_app_difference': '', 'nm_balance_xw_calculation': '', 'jhj_balance_xw_difference': '', 'nm_balance_app_difference': '', 'income_balance_app_behind': '', 'jhj_balance_xw_behind': '', 'income_balance_app_calculation': '', 'income_balance_xw_difference': '', 'jhj_balance_xw_front': '', 'income_balance_xw_calculation': '', 'jhj_balance_app_front': '', 'jhj_balance_app_difference': '', 'jhj_balance_app_behind': '', 'nm_balance_app_front': '', 'guarantee_balance_app_calculation': '', 'income_balance_xw_front': '', 'guarantee_balance_app_front': '', 'nm_balance_xw_difference': '', 'guarantee_balance_xw_behind': '', 'request': <WSGIRequest: GET '/repayments.html/'>, 'guarantee_balance_xw_front': '', 'nm_balance_xw_behind': '', 'income_balance_app_front': '', 'income_balance_xw_behind': ''}]"
+2018-12-13 17:33:07,420 [Thread-2:9476] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'Marketing_balance_xw_front' in template 'index.html'.
+Traceback (most recent call last):
+  File "E:\python\python_2.7.12\lib\site-packages\django-1.10.8-py2.7.egg\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [Marketing_balance_xw_front] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'fasvA0ICrrPF5h50bKOnRIgTLjBl9sWjzTrom29cFIFfcd7scB5CnyVMLnYbJkZr'>, 'user': <SimpleLazyObject: <function <lambda> at 0x03CB22F0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x03D42430>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x03CB16F0>, u'request': <WSGIRequest: GET '/repayments.html/'>}, {}, {'nm_balance_xw_front': '', 'nm_balance_app_calculation': '', 'jhj_balance_xw_calculation': '', 'guarantee_balance_xw_calculation': '', 'income_balance_app_difference': '', 'jhj_balance_app_calculation': '', 'guarantee_balance_app_behind': '', 'nm_balance_app_behind': '', 'guarantee_balance_xw_difference': '', 'guarantee_balance_app_difference': '', 'nm_balance_xw_calculation': '', 'jhj_balance_xw_difference': '', 'nm_balance_app_difference': '', 'income_balance_app_behind': '', 'jhj_balance_xw_behind': '', 'income_balance_app_calculation': '', 'income_balance_xw_difference': '', 'jhj_balance_xw_front': '', 'income_balance_xw_calculation': '', 'jhj_balance_app_front': '', 'jhj_balance_app_difference': '', 'jhj_balance_app_behind': '', 'nm_balance_app_front': '', 'guarantee_balance_app_calculation': '', 'income_balance_xw_front': '', 'guarantee_balance_app_front': '', 'nm_balance_xw_difference': '', 'guarantee_balance_xw_behind': '', 'request': <WSGIRequest: GET '/repayments.html/'>, 'guarantee_balance_xw_front': '', 'nm_balance_xw_behind': '', 'income_balance_app_front': '', 'income_balance_xw_behind': ''}]"
+2018-12-13 17:33:07,434 [Thread-2:9476] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'Marketing_balance_app_behind' in template 'index.html'.
+Traceback (most recent call last):
+  File "E:\python\python_2.7.12\lib\site-packages\django-1.10.8-py2.7.egg\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [Marketing_balance_app_behind] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'fasvA0ICrrPF5h50bKOnRIgTLjBl9sWjzTrom29cFIFfcd7scB5CnyVMLnYbJkZr'>, 'user': <SimpleLazyObject: <function <lambda> at 0x03CB22F0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x03D42430>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x03CB16F0>, u'request': <WSGIRequest: GET '/repayments.html/'>}, {}, {'nm_balance_xw_front': '', 'nm_balance_app_calculation': '', 'jhj_balance_xw_calculation': '', 'guarantee_balance_xw_calculation': '', 'income_balance_app_difference': '', 'jhj_balance_app_calculation': '', 'guarantee_balance_app_behind': '', 'nm_balance_app_behind': '', 'guarantee_balance_xw_difference': '', 'guarantee_balance_app_difference': '', 'nm_balance_xw_calculation': '', 'jhj_balance_xw_difference': '', 'nm_balance_app_difference': '', 'income_balance_app_behind': '', 'jhj_balance_xw_behind': '', 'income_balance_app_calculation': '', 'income_balance_xw_difference': '', 'jhj_balance_xw_front': '', 'income_balance_xw_calculation': '', 'jhj_balance_app_front': '', 'jhj_balance_app_difference': '', 'jhj_balance_app_behind': '', 'nm_balance_app_front': '', 'guarantee_balance_app_calculation': '', 'income_balance_xw_front': '', 'guarantee_balance_app_front': '', 'nm_balance_xw_difference': '', 'guarantee_balance_xw_behind': '', 'request': <WSGIRequest: GET '/repayments.html/'>, 'guarantee_balance_xw_front': '', 'nm_balance_xw_behind': '', 'income_balance_app_front': '', 'income_balance_xw_behind': ''}]"
+2018-12-13 17:33:07,434 [Thread-2:9476] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'Marketing_balance_xw_behind' in template 'index.html'.
+Traceback (most recent call last):
+  File "E:\python\python_2.7.12\lib\site-packages\django-1.10.8-py2.7.egg\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [Marketing_balance_xw_behind] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'fasvA0ICrrPF5h50bKOnRIgTLjBl9sWjzTrom29cFIFfcd7scB5CnyVMLnYbJkZr'>, 'user': <SimpleLazyObject: <function <lambda> at 0x03CB22F0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x03D42430>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x03CB16F0>, u'request': <WSGIRequest: GET '/repayments.html/'>}, {}, {'nm_balance_xw_front': '', 'nm_balance_app_calculation': '', 'jhj_balance_xw_calculation': '', 'guarantee_balance_xw_calculation': '', 'income_balance_app_difference': '', 'jhj_balance_app_calculation': '', 'guarantee_balance_app_behind': '', 'nm_balance_app_behind': '', 'guarantee_balance_xw_difference': '', 'guarantee_balance_app_difference': '', 'nm_balance_xw_calculation': '', 'jhj_balance_xw_difference': '', 'nm_balance_app_difference': '', 'income_balance_app_behind': '', 'jhj_balance_xw_behind': '', 'income_balance_app_calculation': '', 'income_balance_xw_difference': '', 'jhj_balance_xw_front': '', 'income_balance_xw_calculation': '', 'jhj_balance_app_front': '', 'jhj_balance_app_difference': '', 'jhj_balance_app_behind': '', 'nm_balance_app_front': '', 'guarantee_balance_app_calculation': '', 'income_balance_xw_front': '', 'guarantee_balance_app_front': '', 'nm_balance_xw_difference': '', 'guarantee_balance_xw_behind': '', 'request': <WSGIRequest: GET '/repayments.html/'>, 'guarantee_balance_xw_front': '', 'nm_balance_xw_behind': '', 'income_balance_app_front': '', 'income_balance_xw_behind': ''}]"
+2018-12-13 17:33:07,436 [Thread-2:9476] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'Marketing_balance_app_difference' in template 'index.html'.
+Traceback (most recent call last):
+  File "E:\python\python_2.7.12\lib\site-packages\django-1.10.8-py2.7.egg\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [Marketing_balance_app_difference] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'fasvA0ICrrPF5h50bKOnRIgTLjBl9sWjzTrom29cFIFfcd7scB5CnyVMLnYbJkZr'>, 'user': <SimpleLazyObject: <function <lambda> at 0x03CB22F0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x03D42430>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x03CB16F0>, u'request': <WSGIRequest: GET '/repayments.html/'>}, {}, {'nm_balance_xw_front': '', 'nm_balance_app_calculation': '', 'jhj_balance_xw_calculation': '', 'guarantee_balance_xw_calculation': '', 'income_balance_app_difference': '', 'jhj_balance_app_calculation': '', 'guarantee_balance_app_behind': '', 'nm_balance_app_behind': '', 'guarantee_balance_xw_difference': '', 'guarantee_balance_app_difference': '', 'nm_balance_xw_calculation': '', 'jhj_balance_xw_difference': '', 'nm_balance_app_difference': '', 'income_balance_app_behind': '', 'jhj_balance_xw_behind': '', 'income_balance_app_calculation': '', 'income_balance_xw_difference': '', 'jhj_balance_xw_front': '', 'income_balance_xw_calculation': '', 'jhj_balance_app_front': '', 'jhj_balance_app_difference': '', 'jhj_balance_app_behind': '', 'nm_balance_app_front': '', 'guarantee_balance_app_calculation': '', 'income_balance_xw_front': '', 'guarantee_balance_app_front': '', 'nm_balance_xw_difference': '', 'guarantee_balance_xw_behind': '', 'request': <WSGIRequest: GET '/repayments.html/'>, 'guarantee_balance_xw_front': '', 'nm_balance_xw_behind': '', 'income_balance_app_front': '', 'income_balance_xw_behind': ''}]"
+2018-12-13 17:33:07,437 [Thread-2:9476] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'Marketing_balance_xw_difference' in template 'index.html'.
+Traceback (most recent call last):
+  File "E:\python\python_2.7.12\lib\site-packages\django-1.10.8-py2.7.egg\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [Marketing_balance_xw_difference] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'fasvA0ICrrPF5h50bKOnRIgTLjBl9sWjzTrom29cFIFfcd7scB5CnyVMLnYbJkZr'>, 'user': <SimpleLazyObject: <function <lambda> at 0x03CB22F0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x03D42430>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x03CB16F0>, u'request': <WSGIRequest: GET '/repayments.html/'>}, {}, {'nm_balance_xw_front': '', 'nm_balance_app_calculation': '', 'jhj_balance_xw_calculation': '', 'guarantee_balance_xw_calculation': '', 'income_balance_app_difference': '', 'jhj_balance_app_calculation': '', 'guarantee_balance_app_behind': '', 'nm_balance_app_behind': '', 'guarantee_balance_xw_difference': '', 'guarantee_balance_app_difference': '', 'nm_balance_xw_calculation': '', 'jhj_balance_xw_difference': '', 'nm_balance_app_difference': '', 'income_balance_app_behind': '', 'jhj_balance_xw_behind': '', 'income_balance_app_calculation': '', 'income_balance_xw_difference': '', 'jhj_balance_xw_front': '', 'income_balance_xw_calculation': '', 'jhj_balance_app_front': '', 'jhj_balance_app_difference': '', 'jhj_balance_app_behind': '', 'nm_balance_app_front': '', 'guarantee_balance_app_calculation': '', 'income_balance_xw_front': '', 'guarantee_balance_app_front': '', 'nm_balance_xw_difference': '', 'guarantee_balance_xw_behind': '', 'request': <WSGIRequest: GET '/repayments.html/'>, 'guarantee_balance_xw_front': '', 'nm_balance_xw_behind': '', 'income_balance_app_front': '', 'income_balance_xw_behind': ''}]"
+2018-12-13 17:33:07,437 [Thread-2:9476] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'Marketing_balance_app_calculation' in template 'index.html'.
+Traceback (most recent call last):
+  File "E:\python\python_2.7.12\lib\site-packages\django-1.10.8-py2.7.egg\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [Marketing_balance_app_calculation] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'fasvA0ICrrPF5h50bKOnRIgTLjBl9sWjzTrom29cFIFfcd7scB5CnyVMLnYbJkZr'>, 'user': <SimpleLazyObject: <function <lambda> at 0x03CB22F0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x03D42430>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x03CB16F0>, u'request': <WSGIRequest: GET '/repayments.html/'>}, {}, {'nm_balance_xw_front': '', 'nm_balance_app_calculation': '', 'jhj_balance_xw_calculation': '', 'guarantee_balance_xw_calculation': '', 'income_balance_app_difference': '', 'jhj_balance_app_calculation': '', 'guarantee_balance_app_behind': '', 'nm_balance_app_behind': '', 'guarantee_balance_xw_difference': '', 'guarantee_balance_app_difference': '', 'nm_balance_xw_calculation': '', 'jhj_balance_xw_difference': '', 'nm_balance_app_difference': '', 'income_balance_app_behind': '', 'jhj_balance_xw_behind': '', 'income_balance_app_calculation': '', 'income_balance_xw_difference': '', 'jhj_balance_xw_front': '', 'income_balance_xw_calculation': '', 'jhj_balance_app_front': '', 'jhj_balance_app_difference': '', 'jhj_balance_app_behind': '', 'nm_balance_app_front': '', 'guarantee_balance_app_calculation': '', 'income_balance_xw_front': '', 'guarantee_balance_app_front': '', 'nm_balance_xw_difference': '', 'guarantee_balance_xw_behind': '', 'request': <WSGIRequest: GET '/repayments.html/'>, 'guarantee_balance_xw_front': '', 'nm_balance_xw_behind': '', 'income_balance_app_front': '', 'income_balance_xw_behind': ''}]"
+2018-12-13 17:33:07,438 [Thread-2:9476] [django.template:929] [base:_resolve_lookup] [DEBUG]- Exception while resolving variable 'Marketing_balance_xw_calculation' in template 'index.html'.
+Traceback (most recent call last):
+  File "E:\python\python_2.7.12\lib\site-packages\django-1.10.8-py2.7.egg\django\template\base.py", line 907, in _resolve_lookup
+    (bit, current))  # missing attribute
+VariableDoesNotExist: Failed lookup for key [Marketing_balance_xw_calculation] in u"[{'False': False, 'None': None, 'True': True}, {u'csrf_token': <SimpleLazyObject: u'fasvA0ICrrPF5h50bKOnRIgTLjBl9sWjzTrom29cFIFfcd7scB5CnyVMLnYbJkZr'>, 'user': <SimpleLazyObject: <function <lambda> at 0x03CB22F0>>, 'perms': <django.contrib.auth.context_processors.PermWrapper object at 0x03D42430>, 'DEFAULT_MESSAGE_LEVELS': {'DEBUG': 10, 'INFO': 20, 'WARNING': 30, 'SUCCESS': 25, 'ERROR': 40}, 'messages': <django.contrib.messages.storage.fallback.FallbackStorage object at 0x03CB16F0>, u'request': <WSGIRequest: GET '/repayments.html/'>}, {}, {'nm_balance_xw_front': '', 'nm_balance_app_calculation': '', 'jhj_balance_xw_calculation': '', 'guarantee_balance_xw_calculation': '', 'income_balance_app_difference': '', 'jhj_balance_app_calculation': '', 'guarantee_balance_app_behind': '', 'nm_balance_app_behind': '', 'guarantee_balance_xw_difference': '', 'guarantee_balance_app_difference': '', 'nm_balance_xw_calculation': '', 'jhj_balance_xw_difference': '', 'nm_balance_app_difference': '', 'income_balance_app_behind': '', 'jhj_balance_xw_behind': '', 'income_balance_app_calculation': '', 'income_balance_xw_difference': '', 'jhj_balance_xw_front': '', 'income_balance_xw_calculation': '', 'jhj_balance_app_front': '', 'jhj_balance_app_difference': '', 'jhj_balance_app_behind': '', 'nm_balance_app_front': '', 'guarantee_balance_app_calculation': '', 'income_balance_xw_front': '', 'guarantee_balance_app_front': '', 'nm_balance_xw_difference': '', 'guarantee_balance_xw_behind': '', 'request': <WSGIRequest: GET '/repayments.html/'>, 'guarantee_balance_xw_front': '', 'nm_balance_xw_behind': '', 'income_balance_app_front': '', 'income_balance_xw_behind': ''}]"
+2018-12-13 17:33:07,446 [Thread-2:9476] [django.server:131] [basehttp:log_message] [INFO]- "GET /repayments.html/ HTTP/1.1" 200 7319
+2018-12-13 17:36:50,082 [Thread-3:9924] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) BEGIN; args=None
+2018-12-13 17:36:50,168 [Thread-3:9924] [django.db.backends:90] [utils:execute] [DEBUG]- (0.085) INSERT INTO "jhj_rePayMents_loaninformation" ("id", "loan", "jhj_mobile", "nm_mobile", "period", "loanType", "rate") SELECT NULL, '519922776769822720', '17001030088', '18904545600', 8, 2, '8'; args=(None, u'519922776769822720', u'17001030088', u'18904545600', 8, 2, u'8')
+2018-12-13 17:36:50,259 [Thread-3:9924] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) BEGIN; args=None
+2018-12-13 17:36:50,263 [Thread-3:9924] [django.db.backends:90] [utils:execute] [DEBUG]- (0.001) INSERT INTO "jhj_rePayMents_repaymentfront" ("loan_id_id", "repaymentType", "jhj_xw_front", "nm_xw_front", "guarantee_xw_front", "income_xw_front", "jhj_app_front", "nm_app_front", "guarantee_app_front", "income_app_front", "jhj_app_behind", "jhj_xw_behind", "nm_app_behind", "nm_xw_behind", "guarantee_app_behind", "guarantee_xw_behind", "income_app_behind", "income_xw_behind") VALUES (519922776769822720, '2', '348331.24', '93002.76', '281311.79', '77741.69', '86019.33', '94193.56', '281338.75', '68353.880000', '86279.65', '348591.56', '93895.86', '92705.06', '281338.75', '281311.79', '68362.230000', '77750.04'); args=[519922776769822720L, u'2', u'348331.24', u'93002.76', u'281311.79', u'77741.69', u'86019.33', u'94193.56', u'281338.75', u'68353.880000', u'86279.65', u'348591.56', u'93895.86', u'92705.06', u'281338.75', u'281311.79', u'68362.230000', u'77750.04']
+2018-12-13 17:36:51,464 [Thread-3:9924] [django.db.backends:90] [utils:execute] [DEBUG]- (0.000) SELECT "django_session"."session_key", "django_session"."session_data", "django_session"."expire_date" FROM "django_session" WHERE ("django_session"."session_key" = 'xigcad2tuoj57koolei049cq4wv6jsbj' AND "django_session"."expire_date" > '2018-12-13 09:36:51.463000'); args=('xigcad2tuoj57koolei049cq4wv6jsbj', u'2018-12-13 09:36:51.463000')
+2018-12-13 17:36:51,559 [Thread-3:9924] [django.server:131] [basehttp:log_message] [ERROR]- "POST /result/ HTTP/1.1" 500 90767
